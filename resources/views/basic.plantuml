@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+actor Admin as a
+package Dashboard-Admin {
+  usecase "Upload Data Tentang Toko" as UC1
+  usecase "Upload Menu Toko" as UC2
+  usecase "Upload Berita Toko" as UC3
+}
+a --> UC1
+a --> UC2
+a --> UC3
+@enduml
